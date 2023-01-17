@@ -1,0 +1,120 @@
+﻿<Window x:Class="Cells.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cells"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="630" Width="773" Loaded="Window_Loaded">
+    <Grid>
+        <Grid x:Name="Gridd" HorizontalAlignment="Stretch" Height="509" Margin="10,10,10,0" VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="32"/>
+                <ColumnDefinition Width="32"/>
+                <ColumnDefinition Width="32"/>
+                <ColumnDefinition Width="32"/>
+                <ColumnDefinition Width="32"/>
+                <ColumnDefinition Width="32"/>
+                <ColumnDefinition Width="32"/>
+                <ColumnDefinition Width="32"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="32"/>
+                <RowDefinition Height="32"/>
+                <RowDefinition Height="32"/>
+                <RowDefinition Height="32"/>
+                <RowDefinition Height="32"/>
+                <RowDefinition Height="32"/>
+                <RowDefinition Height="32"/>
+                <RowDefinition Height="32"/>
+                <RowDefinition Height="32"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Column="100" Grid.Row="100" Background="LightGray"/>
+
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="5" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="6" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="7" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="3" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="4" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="5" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="6" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="7" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="0" Grid.Column="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="1" Grid.Column="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="2" Grid.Column="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="3" Grid.Column="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="4" Grid.Column="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="5" Grid.Column="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="6" Grid.Column="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="7" Grid.Column="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="0" Grid.Column="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="1" Grid.Column="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="2" Grid.Column="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="3" Grid.Column="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="4" Grid.Column="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="5" Grid.Column="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="6" Grid.Column="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="7" Grid.Column="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="0" Grid.Column="6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="1" Grid.Column="6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="2" Grid.Column="6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="3" Grid.Column="6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="4" Grid.Column="6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="5" Grid.Column="6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="6" Grid.Column="6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="7" Grid.Column="6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="0" Grid.Column="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="1" Grid.Column="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="2" Grid.Column="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="3" Grid.Column="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="4" Grid.Column="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="5" Grid.Column="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="6" Grid.Column="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+            <Button Style="{StaticResource CellButtonStyle_Cleared}" Grid.Row="7" Grid.Column="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CellButtonClick"/>
+
+            <Label Content="" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="8"/>
+            <Label Content="Y 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="7"/>
+            <Label Content="1" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="6"/>
+            <Label Content="2" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="5"/>
+            <Label Content="3" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="4"/>
+            <Label Content="4" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="3"/>
+            <Label Content="5" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2"/>
+            <Label Content="6" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1"/>
+            <Label Content="7" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="0"/>
+            
+            <Label Content="X 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="8" Grid.Column="1"/>
+            <Label Content="1" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="8" Grid.Column="2"/>
+            <Label Content="2" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="8" Grid.Column="3"/>
+            <Label Content="3" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="8" Grid.Column="4"/>
+            <Label Content="4" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="8" Grid.Column="5"/>
+            <Label Content="5" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="8" Grid.Column="6"/>
+            <Label Content="6" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="8" Grid.Column="7"/>
+        </Grid>
+        <TextBox x:Name="tb" HorizontalAlignment="Right" Width="424" FontSize="24" VerticalAlignment="Stretch" TextWrapping="Wrap"/>
+    </Grid>
+</Window>
