@@ -57,7 +57,7 @@ namespace Cells
 
             foreach (List<int> coord in data)
             {
-                tb.Text += $"{coord[0]-1}, {Math.Abs(coord[1] - Gridd.ColumnDefinitions.Count + 2)}" + Environment.NewLine;
+                tb.Text += $"{coord[0]-1}, {Gridd.ColumnDefinitions.Count-2 - coord[1]}" + Environment.NewLine;
             }
         }
     }
